@@ -30,3 +30,16 @@ echo sort($list);
 print_r($list);
 
 echo "<br>";
+
+//in_array function
+
+$string = "asasdasd";
+
+$values = ['gjhg',55,'asdfdg',546, $string];
+$found = in_array($string,$values); //finding the $string inside the $value
+
+if ($found) {
+    echo "Wow! You found it";
+} else {
+    echo "We could not find it"
+}
